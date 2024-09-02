@@ -16,5 +16,10 @@ To build the project, you can use the following command:
 ```bash
 mvn clean install
 
+## To run the tests, execute:
+```bash
+mvn test
 
-
+## To generate Allure reports, use:
+```bash
+mvn allure:report
